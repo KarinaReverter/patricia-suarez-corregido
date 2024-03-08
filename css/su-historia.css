@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.bio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(204, 199, 169, 0.836);
+}
+
+.detalle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-image: url("../fotos/prueba-6.jpg");
+    padding: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.uno {
+    background-image: url("../fotos/fondo3.jpg");
+    /* Ruta de la imagen de marca de agua */
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Color de fondo con transparencia (blanco con 50% de opacidad) */
+}
+
+.content {
+    /* Asegura que el contenido no se vea afectado por la imagen de fondo */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Fondo semitransparente para que el texto sea legible */
+}
+
+
+.caja2 {
+    margin-top: 100px;
+    background-color: rgb(206, 201, 188);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    /* Agrega una sombra suave */
+
+}
+
+.uno {
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+span {
+    font-size: 25px;
+
+}
+
+.dos {
+    padding: 40px;
+}
+
+.tres {
+    padding: 40px;
+}
+
+.cuatro {
+    padding: 40px;
+}
+
+.caja3 {
+    
+    background-image: url("../fotos/fondo5.jpg");
+    /* Ruta de la imagen de marca de agua */
+}
+
+.cinco {
+    padding: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.seis {
+    padding: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.volver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volver {
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-top: 500px;
+    background-color: rgb(139, 116, 51);
+    color: black;
+    padding: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+
+
+
+/* Media queries para tamaños específicos de pantalla */
+@media screen and (max-width: 768px) {
+    /* Estilos específicos para pantallas de hasta 768px de ancho */
+    .bio {
+        grid-template-columns: 1fr;
+    }
+    
+    .detalle {
+        font-size: 30px;
+    }
+    
+    .volver {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+
+
